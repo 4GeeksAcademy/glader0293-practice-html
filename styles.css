@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: black;
+}
+nav {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    background-color: grey;
+    height: 50px;
+    position:relative;
+    z-index: 2;
+}
+nav p a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav p a:hover{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* COVER IMAGE*/
+
+.image-cover{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.chullostravelperu.com/blog/wp-content/uploads/2023/03/Laguna-humantay-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index:1;
+
+}
+
+.image-cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa oscura al 50% */
+    pointer-events: none; /* Permite hacer clic en los elementos debajo */
+  }
+
+.image-cover h1{
+    position: relative;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    
+}

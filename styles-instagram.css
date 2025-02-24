@@ -1,0 +1,92 @@
+
+* {
+    border: 1px dashed red;
+    min-height: 10px;
+}
+
+body{
+    background-color: rgb(195, 195, 195);
+
+
+}
+
+/*INSTAGRAM BODY*/
+
+.top-bar{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.top-bar h1{
+    color: black;
+    margin: 10px;
+}
+
+/*BOX STYLES*/
+
+.box-container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box{
+    background-color: white;
+    margin:30px;
+    width: 500px;
+
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.date{
+
+}
+.img-box-1{
+    background-image: url('https://www.nylabone.com/-/media/project/oneweb/nylabone/images/dog101/activities-fun/10-great-small-dog-breeds/maltese-portrait.jpg?h=448&w=740&hash=B111F1998758CA0ED2442A4928D5105D');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img-box-2{
+    background-image: url('https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img-box-3{
+    background-image: url('https://cdn2.psychologytoday.com/assets/styles/manual_crop_16_9_1200x675/public/field_blog_entry_teaser_image/2020-06/angry_chihuahua.png.jpg?itok=M2aLtYVc');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img-box-4{
+    background-image: url('https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

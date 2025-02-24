@@ -1,0 +1,14 @@
+
+
+.postcard-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15%;
+}
+
+.postcard{
+    background-color:white;
+    width: 700px;
+    height: 550px;
+}
