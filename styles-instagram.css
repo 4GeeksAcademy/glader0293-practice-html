@@ -1,8 +1,8 @@
 
-* {
+/** {
     border: 1px dashed red;
     min-height: 10px;
-}
+}*/
 
 body{
     background-color: rgb(195, 195, 195);

@@ -10,5 +10,63 @@
 .postcard{
     background-color:white;
     width: 700px;
-    height: 550px;
+    height: 500px;
+}
+.postcard-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.postcard-header h1{
+  font-size: 50px;
+}
+.postcard-header img{
+    width: 90px;
+    height: 100px;;
+}
+
+.body{
+    background-color: white;
+    display:flex;
+    padding: 30px;
+}
+.left-body{
+    width: 50%;
+}
+
+.left-body p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.right-body{
+    width: 50%;
+    margin:0px 20px;
+}
+
+.right-body input{
+    margin: 8px 0px;
+    width: 100%;
+    height: 25px;
+    border:none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    font-size: 18px;
+    
+}
+
+.button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button p{
+    background-color: rgb(174, 168, 168);
+    font-weight: bold;
+    padding: 10px;
+    align-items: center;
 }
